@@ -1,0 +1,2 @@
+# RECIPIES2
+Last time we worked on this project we only used HTML. However, I tried adding some CSS and although it wasn't the worst. It wasn't the best either and had a lot of room for imporvemnt. I've recently researched a bit more on the display property and wish to get further practice with this project. Hence, I will be making the same website with the same recipies, descriptions, and steps. But I will be using the new techniques I learned this week (week 2). 
