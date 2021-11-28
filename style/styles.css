@@ -43,6 +43,10 @@ h1{
     border: 5px solid black
 }
 
+a:visited{
+    text-decoration: none;
+}
+
 .flex-item{
     width: 300px;
     height: auto;
