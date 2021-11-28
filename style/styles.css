@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background: url(../imgs/kitchen2.jpg) no-repeat;
-    background-size: cover;
-}
-
 h1{
     text-align: center;
     font-family: 'Mali', cursive;
@@ -16,6 +11,15 @@ h1{
     margin: 40px;
     padding: 20px;
     border: 5px solid black
+}
+
+/*------------------------------------------------------
+homepage
+------------------------------------------------------*/
+
+.homepage{
+    background: url(../imgs/kitchen2.jpg) no-repeat;
+    background-size: cover;
 }
 
 .item-name{
@@ -41,10 +45,6 @@ h1{
     margin: 40px;
     padding: 20px 20px 20px 20px;
     border: 5px solid black
-}
-
-a:visited{
-    text-decoration: none;
 }
 
 .flex-item{
@@ -100,4 +100,50 @@ a:visited{
     margin: 40px;
     padding: 20px 20px 20px 20px;
     border: 5px solid black
+}
+
+/*------------------------------------------------------
+recipe
+------------------------------------------------------*/
+
+.recipe-page{
+    background: url(../imgs/cutting-board.jpg) no-repeat;
+    background-size: cover;
+}
+
+.recipe-cointainer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.closer{
+    font-family: 'Mali', cursive;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 40px;
+    margin: 25px;
+    margin-top: 0px;
+    border: 5px solid black;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.description-head{
+    font-family: 'Mali', cursive;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
